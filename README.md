@@ -178,7 +178,7 @@ window.onload = function() {
 };
 ```
 
-At this point we should have a functional app that let's edit and view markdown right away. If we go to the homepage and add some sample markdown, we should see something like this:
+At this point we should have a functional app that will let us edit and view markdown right away. If we go to the homepage and add some sample markdown, we should see something like this:
 
 ![](images/image2.png)
 
@@ -262,7 +262,7 @@ We require ShareJS and Redis, and set some options for it. We force ShareJS to u
 </html>
 ```
 
-The files we require are for creating a socket connection to our backend sharejs object (`bcsocket.js`) and sending and receiving textarea events (`share.uncompressed.js` and `textarea.js`). Finally, we need to actually add the code that implements ShareJS in our frontend javascript file (`public/script.js`).
+The files we require are for creating a socket connection to our backend (`bcsocket.js`) and sending and receiving textarea events (`share.uncompressed.js` and `textarea.js`). Finally, we need to actually add the code that implements ShareJS in our frontend javascript file (`public/script.js`).
 
 ```javascript
 /* public/script.js */
@@ -536,4 +536,4 @@ Now after we commit our changes into Git, we are ready to push our app to Heroku
 
 Congratulations! We have a realtime markdown application that we can use for writing markdown and to collaborate with our friends.
 
-You can see a working demo at [here](https://realtimemarkdown.herokuapp.com/) and view the entire code repo [here](https://github.com/sifxtreme/realtime-markdown-viewer).
+You can see a working demo [here](https://realtimemarkdown.herokuapp.com/) and view the entire code repo [here](https://github.com/sifxtreme/realtime-markdown-viewer).
